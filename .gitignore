@@ -1,0 +1,7 @@
+**/.fdk/
+**/coverage/
+**/.report.json
+**/server/.env
+**/server/test_data
+**/dist/
+**/digest.md5
