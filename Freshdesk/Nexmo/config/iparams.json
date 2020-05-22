@@ -1,0 +1,33 @@
+{
+    "sub_domain": {
+        "display_name": "FreshDesk Domain",
+        "description": "Please enter your Freshdesk domain web address",
+        "type": "domain",
+        "type_attributes": {
+          "product":"freshdesk"
+         },
+        "required": true
+      },
+    "freshdesk_apikey": {
+        "display_name": "FreshDesk API Key",
+        "description": "Please enter your Freshdesk Api Key",
+        "type": "api_key",
+        "required": true,
+        "type_attributes": {
+          "product": "freshdesk"
+         },
+        "secure":true
+      },
+    "nexmo_jwttoken": {
+        "display_name": "Nexmo JWT Token",
+        "description": "Please enter your nexmo JWT Token",
+        "type": "text",
+        "required": true,
+        "secure":true
+      },
+    "tags":{
+      "display_name": "Tags",
+      "description": "Any tags to add? (comma separated please!)",
+      "type": "text"
+    }
+}

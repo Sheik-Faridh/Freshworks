@@ -1,0 +1,23 @@
+{
+    "api_key": {
+        "display_name": "Freshservice API Key",
+        "description": "Please enter the freshservice api key",
+        "type": "text",
+        "required": true,
+        "secure":true
+      },
+      "domain": {
+        "display_name": "Freshservice Domain",
+        "description": "Please enter the freshservice domain name",
+        "type": "text",
+        "required": true,
+        "secure":true
+      },
+      "access_token":{
+        "display_name": "Access Token",
+        "description": "Please enter the access token",
+        "type": "text",
+        "required": true,
+        "secure":true 
+      }
+}

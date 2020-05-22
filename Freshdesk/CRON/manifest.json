@@ -1,0 +1,9 @@
+{
+  "platform-version": "2.0",
+  "product": {
+    "freshdesk": {}
+  },
+  "dependencies":{
+    "aws-sdk":"2.610.0"
+  }
+}

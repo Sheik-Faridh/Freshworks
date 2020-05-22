@@ -1,0 +1,41 @@
+{
+    "api_key": {
+        "display_name": "Freshdesk API Key",
+        "description": "Please enter your Freshdesk API key. You can find it in the profile section page.",
+        "type": "text",
+        "required": true,
+        "secure": true
+    },
+    "sub_domain": {
+        "display_name": "Freshdesk Sub-domain",
+        "description": "Please enter your Freshdesk sub-domain. It's in the URL, the name which appears before (.freshdesk.com) in the URL. For ex: In `xyz.freshdesk.com`, `xyz` is the subdomain",
+        "type": "text",
+        "required": true
+    },
+    "accessKeyId":{
+        "display_name": "AWS Access Key Id",
+        "description": "Enter the AWS access key id",
+        "type": "text",
+        "required": true,
+        "secure":true
+    },
+    "secretAccessKey":{
+        "display_name": "AWS Secret Access Key",
+        "description": "Enter the AWS secret access key",
+        "type": "text",
+        "required": true,
+        "secure":true
+    },
+    "region":{
+        "display_name": "Region",
+        "description": "Enter the region name",
+        "type": "text",
+        "required": true
+    },
+    "bucket_name":{
+        "display_name": "Bucket Name",
+        "description": "Enter the bucket name",
+        "type": "text",
+        "required": true
+    }
+}

@@ -1,0 +1,94 @@
+<html>
+    <head lang="en">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alyssaxuu/flowy/flowy.min.css"> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/iparams.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/alyssaxuu/flowy/flowy.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="./assets/iparams.js"></script>
+    </head>
+    <script type="text/javascript">
+        function getConfigs(savedConfigs){
+            automation = savedConfigs.automation
+            flowy.import(automation)
+        }
+
+        function postConfigs(){
+           return{
+                automation
+           }
+        }
+
+        function validate() {
+            return true;
+        }
+    </script>
+    <body>
+        <div class="container">
+            <div id="navigation">
+                <div id="leftside">
+                    <div id="details">
+                        <div id="back"><img src="data:image/svg+xml,%3Csvg width='10' height='14' viewBox='0 0 10 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 2L2.18437 6.84636C2.08842 6.92631 2.08842 7.07369 2.18437 7.15364L8 12' stroke='%23393C44' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E%0A"></div>
+                        <div id="names">
+                            <p id="title">Your automation pipeline</p>
+                            <p id="subtitle">Marketing automation</p>
+                        </div>
+                    </div>            
+                </div>
+                <div id="centerswitch"> 
+                    <p id="code-diagram">Code Diagram</p>
+                </div>
+                <div id="buttonsright">
+                    <div id="save-automation">Save Automation</div>
+                </div>
+            </div>
+            <div id="leftcard" class="show">
+                <div id="closecard">
+                    <img src="data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 17L6 12L11 7' stroke='%23B3B6C9' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M18 17L13 12L18 7' stroke='%23B3B6C9' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A">
+                </div>
+                <p id="header">Triggers</p>
+                <div id="blocklist">
+                    <div class="blockelem create-flowy noselect">
+                        <input type="hidden" name="blockelemtype" class="blockelemtype"
+                            value="1">
+                        <div class="grabme"><img src="data:image/svg+xml,%3Csvg width='11' height='16' viewBox='0 0 11 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.22798' cy='1.45455' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='8.77486' cy='1.45455' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='2.22798' cy='14.5454' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='8.77486' cy='14.5454' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='2.22798' cy='8.00044' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='8.77486' cy='8.00044' r='1.45455' fill='%23CED0D7'/%3E%3C/svg%3E%0A"></div>
+                        <div class="blockin">
+                            <div class="blockico"><span></span><img src="data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' viewBox='0 0 490.164 490.164' style='enable-background:new 0 0 490.164 490.164;' xml:space='preserve' width='19px' height='19px'%3E%3Cg%3E%3Cpath d='M50.73,364.375h180.042l153.304,125.79v-125.79h55.358c27.933,0,50.648-23.118,50.648-51.545V51.545 C490.082,23.118,467.368,0,439.434,0H50.73C22.804,0,0.082,23.118,0.082,51.545v261.284C0.082,341.256,22.804,364.375,50.73,364.375 z M75.837,89.542h338.49v30.625H75.837V89.542z M75.837,164.624h338.49v30.625H75.837V164.624z M75.837,239.691h338.49v30.625 H75.837V239.691z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23999B9C'/%3E%3C/g%3E%3C/svg%3E%0A"></div>
+                            <div class="blocktext">
+                                <p class="blocktitle">Send Message</p>
+                                <p class="blockdesc">Trigger a message to the customers absed on their response</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blockelem create-flowy noselect"><input type="hidden" name="blockelemtype" class="blockelemtype"
+                            value="2">
+                        <div class="grabme"><img src="data:image/svg+xml,%3Csvg width='11' height='16' viewBox='0 0 11 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2.22798' cy='1.45455' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='8.77486' cy='1.45455' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='2.22798' cy='14.5454' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='8.77486' cy='14.5454' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='2.22798' cy='8.00044' r='1.45455' fill='%23CED0D7'/%3E%3Ccircle cx='8.77486' cy='8.00044' r='1.45455' fill='%23CED0D7'/%3E%3C/svg%3E%0A"></div>
+                        <div class="blockin">
+                            <div class="blockico"><span></span><img src="data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' viewBox='0 0 490.064 490.064' style='enable-background:new 0 0 490.064 490.064;' xml:space='preserve' width='19px' height='19px' class=''%3E%3Cg%3E%3Cg%3E%3Cellipse cx='380.755' cy='271.141' rx='71.374' ry='70.911' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23A0A7AC'/%3E%3Cpath d='M425.618,358.207h-89.725c0,0-64.448,0.716-64.448,59.738c0,58.663,0,72.088,0,72.088h218.62c0,0,0-13.425,0-72.088 C490.064,359.279,425.618,358.207,425.618,358.207z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23A0A7AC'/%3E%3Cpath d='M152.59,0.032C68.451,0.032,0,68.064,0,151.68c0,90.66,80.61,163.538,174.126,150.093l75.301,59.852v-92.918 c35.519-28.969,55.739-71.188,55.739-117.026C305.166,68.064,236.715,0.032,152.59,0.032z M141.553,221.851l-61.258-50.265 l19.442-23.689l36.073,29.627l62.648-86.712l24.826,17.947L141.553,221.851z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23A0A7AC'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A"></div>
+                            <div class="blocktext">
+                                <p class="blocktitle">Assign agent</p>
+                                <p class="blockdesc">Assign an agent to a ticket</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="propwrap">
+                <div id="properties">
+                    <div id="close">
+                        <img src="data:image/svg+xml,%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.25 4.75L4.75 14.25' stroke='%23A6A6B3' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4.75 4.75L14.25 14.25' stroke='%23A6A6B3' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A">
+                    </div>
+                    <p id="header2">Perform Action</p>
+                    <div id="proplist">
+                    </div>
+                    <div id="divisionthing"></div>
+                    <div id="removeblock">Delete blocks</div>
+                </div>
+            </div>
+            <div id="canvas"></div>
+        </div>
+    </body>
+</html>
